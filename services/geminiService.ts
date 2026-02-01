@@ -69,7 +69,6 @@ const MOCK_THOUGHTS: Record<string, string[]> = {
 export const generateAgentThought = async (
   agentRole: AgentRole,
   action: string,
-  _npm run build
 appData: ApplicationData
 ): Promise<string> => {
   // Simulate network delay
