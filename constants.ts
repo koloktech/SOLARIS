@@ -1,4 +1,4 @@
-import { Agent, AgentRole, AgentStatus, DocumentItem } from './types';
+import { Agent, AgentStatus, DocumentItem } from './types';
 
 export const AGENTS: Agent[] = [
   { id: 'INTAKE', name: 'Intake Agent', description: 'Orchestrates data collection', status: AgentStatus.IDLE, icon: '📥' },

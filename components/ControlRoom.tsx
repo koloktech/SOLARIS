@@ -14,7 +14,7 @@ interface Props {
 const ControlRoom: React.FC<Props> = ({ appData, onComplete }) => {
   const [agents, setAgents] = useState<Agent[]>(AGENTS);
   const [logs, setLogs] = useState<LogEntry[]>([]);
-  const [stepIndex, setStepIndex] = useState(0);
+  const [, setStepIndex] = useState(0);
   const [scoreMetrics, setScoreMetrics] = useState<ScoreMetric[]>([
     { category: 'Identity & Applicant', score: 0, maxScore: 15, weight: 15 },
     { category: 'Document Completeness', score: 0, maxScore: 25, weight: 25 },
